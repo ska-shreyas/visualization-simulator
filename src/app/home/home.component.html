@@ -1,0 +1,74 @@
+
+
+<mat-tab-group class="card" style="margin: 20px;">
+    <mat-tab label="Auto-generate Messages"> 
+        <div class="card" style="min-height: 100px; margin: 10px;">
+            <mat-progress-bar *ngIf="progress" mode="indeterminate"></mat-progress-bar>
+            <div *ngIf="msggenerate" class="card">
+                <p style="background-color: rgb(190, 243, 109); width: fit-content; height: fit-content; padding: 5px 20px 0px 20px; margin: 10px;"><label><b>process_id : </b></label>{{pid}}</p>   
+            </div>
+            <div *ngIf="stopmsg" class="card">
+                <p style="background-color: rgb(248, 170, 170); width: fit-content; height: fit-content; padding: 5px 20px 0px 20px; margin: 10px;">{{stopresponse}}</p>   
+            </div>
+            <table style="margin-top: 30px;">
+                <tr>
+                    <td><label>Number of Messages</label></td>
+                    <td><input type="number" required class="form-control" (keyup)="valid()" [(ngModel)]="num_msgs"></td>
+                </tr>
+                <tr>
+                    <td><label>Percentage of Anomaly Messages</label></td>
+                    <td><input type="number" min="0" max="100" class="form-control" (keyup)="valid()" [(ngModel)]="anomaly_percent">
+                        <span style="font-size: 10px; color: red;" *ngIf="!(anomaly_percent >=0 && anomaly_percent <=100 || anomaly_percent == undefined) ">**Enter valid Anomaly_percent between 0 to 100 </span></td>
+                    
+                </tr>
+            </table>
+
+            <div style="margin: 30px 10px 10px 20px;">
+                <button class="btn btn-success" (click)="generate()" [disabled]="!fieldvalid || progress">Generate Messages</button>
+                <button class="btn btn-danger" style="margin-left: 5px;"  [disabled]="!progress" (click)="stop()">Stop Messages</button>
+            </div>
+
+        </div>
+    </mat-tab>
+
+<!------------------------------- Manual-generate Message--------------------- -->
+    <mat-tab label="Manual-generate Messages">
+        <div  class="card" style="min-height: 100px;">
+            <table>
+                <tr>
+                    <th>MESSAGE PARAMETER</th>
+                    <th>VALUE</th>
+                </tr>
+                <br>
+                <tr>
+                    <td><label>CGADDR</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['CGADDR']"></td>
+                </tr>
+                <tr>
+                    <td><label>CDADDR</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['CDADDR']"></td>
+                </tr>
+                <tr>
+                    <td><label>OPCODE</label></td>
+                    <td><select class="form-control" [(ngModel)]="MSG_FORMAT['OPCODE']"><option disabled>SELECT INVALID OPCODE</option><option *ngFor="let opcode of OPCODE_mapping | keyvalue">{{opcode.key}}</option></select></td>
+                    <!-- <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['OPCODE']"></td> -->
+                </tr>
+                <tr>
+                    <td><label>LINKSET</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['LSET']"></td>
+                </tr>
+            </table>
+            <div style="margin: 30px 10px 10px 10px;">
+                <button class="btn btn-success" (click)="manual()">Generate</button>
+            </div>
+        </div>
+        <br>
+        <div style="margin: 20px; ">
+            <div style="height: 18px; background-color: rgb(158, 157, 157); width: 95%;border-top-left-radius: 7px; border-top-right-radius: 7px;"></div>
+            <div style="min-height: 50px; background-color: rgb(10, 10, 10); color: white; width: 95%; padding: 10px;">
+                <div id="resmsg" ></div>
+                <!-- *ngFor="let a of manualmsg" -->
+            </div>
+        </div>
+    </mat-tab>
+  </mat-tab-group>

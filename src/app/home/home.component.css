@@ -1,0 +1,19 @@
+table{
+    margin: 10px;
+    width: 90%;
+}
+
+th{
+    background-color: rgb(44, 36, 31);
+    color: white;
+    padding: 10px;
+    border: 1px solid gray; 
+}
+
+td{
+    padding: 0px 10px;
+}
+
+.tab{
+    tab-size: 2;
+}

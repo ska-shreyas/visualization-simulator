@@ -1,0 +1,275 @@
+{'@timestamp': '2021-02-03T17:56:40.158Z', 'OPC': '6-45-4', 'DPC': '3-3-3', 'OTID': 6074, 'DTID': '', 'TCAP': 'BEG', 'OPCODE': 'releaseResources', 'CDTT': 30, 'CDNP': 2, 'CDNAI': 3, 'CDADDR': '9127627629', 'CDCN': 'Somalia', 'CDLOC': '45.42,2.03', 'CGTT': 210, 'CGNP': 3, 'CGNAI': 3, 'CGADDR': '9122224545', 'CGCN': 'Palau', 'CgLOC': '134.47,7.33', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS8', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '2118278927', 'IMSI': '2138746420', 'CLLI': 'tklc1111101', 'SameCountryCode': '1'}
+{'@timestamp': '2021-02-03T17:56:40.160Z', 'OPC': '6-45-4', 'DPC': '3-3-3', 'OTID': 6074, 'DTID': '', 'TCAP': 'END', 'OPCODE': 'secureTransportClass3', 'CDTT': 162, 'CDNP': 4, 'CDNAI': 1, 'CDADDR': '7173602907', 'CDCN': 'Hong Kong', 'CDLOC': '114.25,22.47', 'CGTT': 38, 'CGNP': 2, 'CGNAI': 2, 'CGADDR': '5527639269', 'CGCN': 'Saudi Arabia', 'CgLOC': '46.70,24.68', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS6', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '4563565368', 'IMSI': '7173602907', 'CLLI': 'tklc1111101', 'SameCountryCode': '1'}
+{
+    "@timestamp": "2021-02-03T17:56:40.196Z",
+    "OPC": "6-45-4",
+    "DPC": "7-15-4",
+    "OTID": 6074,
+    "DTID": "",
+    "TCAP": "CONT",
+    "OPCODE": "sendRoutingInfoForLCS",
+    "CDTT": 247,
+    "CDNP": 6,
+    "CDNAI": 1,
+    "CDADDR": "4238557203",
+    "CDCN": "Belgium",
+    "CDLOC": "4.35,50.85",
+    "CGTT": 15,
+    "CGNP": 5,
+    "CGNAI": 0,
+    "CGADDR": "9868525565",
+    "CGCN": "United Arab Emirates",
+    "CgLOC": "54.37,24.47",
+    "ATYPE": [
+        "Tracking",
+        " Spam"
+    ],
+    "ASUBTYPE": [
+        "IMSIDisclosure"
+    ],
+    "LSET": "LS4",
+    "CLSF": "unknown",
+    "CAT": "CAT_1_0",
+    "MSISDN": "8010343755",
+    "IMSI": "2134893789",
+    "CLLI": "tklc1111101",
+    "SameCountryCode": "0"
+}{
+    "@timestamp": "2021-02-03T17:56:40.198Z",
+    "OPC": "1-35-1",
+    "DPC": "5-5-5",
+    "OTID": 6074,
+    "DTID": "",
+    "TCAP": "END",
+    "OPCODE": "eraseSS",
+    "CDTT": 228,
+    "CDNP": 6,
+    "CDNAI": 0,
+    "CDADDR": "8001434577",
+    "CDCN": "Belarus",
+    "CDLOC": "27.50,53.87",
+    "CGTT": 3,
+    "CGNP": 0,
+    "CGNAI": 2,
+    "CGADDR": "8001434577",
+    "CGCN": "Ireland",
+    "CgLOC": "-6.25,53.35",
+    "ATYPE": [
+        "Intercept",
+        " DOS"
+    ],
+    "ASUBTYPE": [
+        "servManipulation"
+    ],
+    "LSET": "LS5",
+    "CLSF": "unknown",
+    "CAT": "CAT_1_0",
+    "MSISDN": "5527639269",
+    "IMSI": "7173602907",
+    "CLLI": "tklc1111101",
+    "SameCountryCode": "0"
+}{
+    "@timestamp": "2021-02-03T17:56:40.200Z",
+    "OPC": "2-105-7",
+    "DPC": "5-6-7",
+    "OTID": 30023,
+    "DTID": "",
+    "TCAP": "BEG",
+    "OPCODE": "sendParameters",
+    "CDTT": 44,
+    "CDNP": 0,
+    "CDNAI": 1,
+    "CDADDR": "4563565368",
+    "CDCN": "Nepal",
+    "CDLOC": "85.33,27.75",
+    "CGTT": 230,
+    "CGNP": 6,
+    "CGNAI": 1,
+    "CGADDR": "8010343755",
+    "CGCN": "Guinea",
+    "CgLOC": "-13.82,9.48",
+    "ATYPE": [
+        "Tracking",
+        " Intercept"
+    ],
+    "ASUBTYPE": [
+        "profileDisclosure",
+        "cryptRetrieval",
+        "callRedirection",
+        "callInterception",
+        "servUnavail"
+    ],
+    "LSET": "LS1",
+    "CLSF": "unknown",
+    "CAT": "CAT_1_0",
+    "MSISDN": "6798289782",
+    "IMSI": "4238557203",
+    "CLLI": "tklc1111101",
+    "SameCountryCode": "0"
+}{
+    "@timestamp": "2021-02-03T17:56:40.202Z",
+    "OPC": "3-1-6",
+    "DPC": "7-15-4",
+    "OTID": 19003,
+    "DTID": "",
+    "TCAP": "BEG",
+    "OPCODE": "mt-forwardSM",
+    "CDTT": 176,
+    "CDNP": 6,
+    "CDNAI": 1,
+    "CDADDR": "2118278927",
+    "CDCN": "Estonia",
+    "CDLOC": "24.80,59.37",
+    "CGTT": 246,
+    "CGNP": 1,
+    "CGNAI": 1,
+    "CGADDR": "9868525565",
+    "CGCN": "Thailand",
+    "CgLOC": "100.58,13.75",
+    "ATYPE": [
+        "Tracking",
+        " DOS",
+        " Fraud",
+        " Spam"
+    ],
+    "ASUBTYPE": [
+        "SMSmanipulation"
+    ],
+    "LSET": "LS2",
+    "CLSF": "unknown",
+    "CAT": "CAT_3_3",
+    "MSISDN": "2134893789",
+    "IMSI": "4563565368",
+    "CLLI": "tklc1111101",
+    "SameCountryCode": "0"
+}{
+    "@timestamp": "2021-02-03T17:56:40.203Z",
+    "OPC": "3-1-6",
+    "DPC": "7-15-4",
+    "OTID": 19003,
+    "DTID": "",
+    "TCAP": "END",
+    "OPCODE": "sendParameters",
+    "CDTT": 71,
+    "CDNP": 2,
+    "CDNAI": 3,
+    "CDADDR": "2138746420",
+    "CDCN": "Iran",
+    "CDLOC": "51.63,36.13",
+    "CGTT": 127,
+    "CGNP": 4,
+    "CGNAI": 3,
+    "CGADDR": "8010343755",
+    "CGCN": "Hungary",
+    "CgLOC": "19.08,47.48",
+    "ATYPE": [
+        "Tracking",
+        " Intercept"
+    ],
+    "ASUBTYPE": [
+        "profileDisclosure",
+        "cryptRetrieval",
+        "callRedirection",
+        "callInterception",
+        "servUnavail"
+    ],
+    "LSET": "LS10",
+    "CLSF": "unknown",
+    "CAT": "CAT_1_0",
+    "MSISDN": "2134893789",
+    "IMSI": "9127627629",
+    "CLLI": "tklc1111101",
+    "SameCountryCode": "0"
+}{'@timestamp': '2021-02-03T17:56:40.205Z', 'OPC': '2-105-7', 'DPC': '7-15-4', 'OTID': 9925, 'DTID': '', 'TCAP': 'BEG', 'OPCODE': 'ss-Invocation-Notification', 'CDTT': 176, 'CDNP': 1, 'CDNAI': 1, 'CDADDR': '2937452019', 'CDCN': 'Germany', 'CDLOC': '13.42,52.50', 'CGTT': 151, 'CGNP': 0, 'CGNAI': 1, 'CGADDR': '5891204352', 'CGCN': 'Chad', 'CgLOC': '14.98,12.17', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS6', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '9327862992', 'IMSI': '2138746420', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.208Z', 'OPC': '2-105-7', 'DPC': '7-15-4', 'OTID': 9925, 'DTID': 31981, 'TCAP': 'CONT', 'OPCODE': 'traceSubscriberActivity', 'CDTT': 10, 'CDNP': 1, 'CDNAI': 1, 'CDADDR': '7119036475', 'CDCN': 'Oman', 'CDLOC': '58.60,23.62', 'CGTT': 226, 'CGNP': 2, 'CGNAI': 1, 'CGADDR': '2937452019', 'CGCN': 'Venezuela', 'CgLOC': '-66.92,10.50', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS8', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '2138746420', 'IMSI': '2118278927', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.210Z', 'OPC': '2-105-7', 'DPC': '5-6-7', 'OTID': 30023, 'DTID': '', 'TCAP': 'END', 'OPCODE': 'updateVcsgLocation  ', 'CDTT': 78, 'CDNP': 0, 'CDNAI': 0, 'CDADDR': '2937452019', 'CDCN': 'Mozambique', 'CDLOC': '32.53,25.97', 'CGTT': 247, 'CGNP': 0, 'CGNAI': 0, 'CGADDR': '3124532108', 'CGCN': 'Dominican Republic', 'CgLOC': '-70.55,18.80', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS7', 'CLSF': 'unknown', 'CAT': 'CAT_3_2', 'MSISDN': '4563565368', 'IMSI': '4238557203', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.212Z', 'OPC': '2-105-7', 'DPC': '7-15-4', 'OTID': 31981, 'DTID': 9925, 'TCAP': 'CONT', 'OPCODE': 'updateVcsgLocation  ', 'CDTT': 0, 'CDNP': 4, 'CDNAI': 3, 'CDADDR': '7823073829', 'CDCN': 'Brunei', 'CDLOC': '115.55,5.50', 'CGTT': 46, 'CGNP': 5, 'CGNAI': 1, 'CGADDR': '7823073829', 'CGCN': 'South Korea', 'CgLOC': '126.97,37.52', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS9', 'CLSF': 'unknown', 'CAT': 'CAT_3_2', 'MSISDN': '4563565368', 'IMSI': '9127627629', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.213Z', 'OPC': '6-45-4', 'DPC': '2-3-4', 'OPCODE': 'mt-ForwardSM-VGCS  ', 'CDTT': 31, 'CDNP': 6, 'CDNAI': 1, 'CDADDR': '9868525565', 'CDCN': 'Dominican Republic', 'CDLOC': '-70.55,18.80', 'CGTT': 221, 'CGNP': 5, 'CGNAI': 0, 'CGADDR': '9327862992', 'CGCN': 'Burundi', 'CgLOC': '29.30,3.27', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS10', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '9868525565', 'IMSI': '7173602907', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.215Z', 'OPC': '1-35-1', 'DPC': '3-3-3', 'OPCODE': 'provideSIWFSNumber', 'CDTT': 241, 'CDNP': 2, 'CDNAI': 1, 'CDADDR': '4238557203', 'CDCN': 'Philippines', 'CDLOC': '121.05,14.67', 'CGTT': 23, 'CGNP': 0, 'CGNAI': 0, 'CGADDR': '5527639269', 'CGCN': 'Greece', 'CgLOC': '23.77,37.97', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS1', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '2138746420', 'IMSI': '5527639269', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.217Z', 'OPC': '2-105-7', 'DPC': '7-15-4', 'OPCODE': 'provideSIWFSNumber', 'CDTT': 167, 'CDNP': 4, 'CDNAI': 2, 'CDADDR': '7173602907', 'CDCN': 'Azerbaijan', 'CDLOC': '49.93,40.48', 'CGTT': 240, 'CGNP': 3, 'CGNAI': 0, 'CGADDR': '4563565368', 'CGCN': 'Myanmar', 'CgLOC': '96.33,16.75', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS9', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '2134893789', 'IMSI': '7173602907', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.219Z', 'OPC': '6-45-4', 'DPC': '5-6-7', 'OPCODE': 'traceSubscriberActivity', 'CDTT': 178, 'CDNP': 2, 'CDNAI': 0, 'CDADDR': '9122224545', 'CDCN': 'Benin', 'CDLOC': '2.70,6.38', 'CGTT': 196, 'CGNP': 0, 'CGNAI': 2, 'CGADDR': '9868525565', 'CGCN': 'Nepal', 'CgLOC': '85.33,27.75', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS4', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '2118278927', 'IMSI': '9327862992', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.221Z', 'OPC': '2-105-7', 'DPC': '3-3-3', 'OPCODE': 'prepareSubsequentHandover', 'CDTT': 142, 'CDNP': 4, 'CDNAI': 0, 'CDADDR': '7173602907', 'CDCN': 'Thailand', 'CDLOC': '100.58,13.75', 'CGTT': 53, 'CGNP': 6, 'CGNAI': 0, 'CGADDR': '2138746420', 'CGCN': 'Bhutan', 'CgLOC': '89.75,27.52', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS10', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '9868525565', 'IMSI': '7173602907', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.222Z', 'OPC': '7-1-6', 'DPC': '2-3-4', 'OPCODE': 'noteSubscriberDataModified', 'CDTT': 140, 'CDNP': 6, 'CDNAI': 0, 'CDADDR': '8010343755', 'CDCN': 'Samoa', 'CDLOC': '-171.83,13.83', 'CGTT': 188, 'CGNP': 5, 'CGNAI': 3, 'CGADDR': '8010343755', 'CGCN': 'Niger', 'CgLOC': '2.10,13.45', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS3', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '4238557203', 'IMSI': '9127627629', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.224Z', 'OPC': '2-105-7', 'DPC': '7-15-4', 'OPCODE': 'statusReport', 'CDTT': 121, 'CDNP': 5, 'CDNAI': 2, 'CDADDR': '5527639269', 'CDCN': 'Democratic Republic of the Congo', 'CDLOC': '15.25,4.33', 'CGTT': 127, 'CGNP': 1, 'CGNAI': 1, 'CGADDR': '8010343755', 'CGCN': 'Belize', 'CgLOC': '-88.50,17.30', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS8', 'CLSF': 'unknown', 'CAT': 'null', 'MSISDN': '8001434577', 'IMSI': '9327862992', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.226Z', 'OPC': '1-5-7', 'DPC': '5-5-5', 'OPCODE': 'secureTransportClass2', 'CDTT': 152, 'CDNP': 0, 'CDNAI': 1, 'CDADDR': '9868525565', 'CDCN': 'Ivory Coast', 'CDLOC': '-5.47,7.37', 'CGTT': 227, 'CGNP': 5, 'CGNAI': 3, 'CGADDR': '2134893789', 'CGCN': 'Monaco', 'CgLOC': '7.42,44.23', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS2', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '9868525565', 'IMSI': '2118278927', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.229Z', 'OPC': '2-2-2', 'DPC': '7-15-4', 'OPCODE': 'alertServiceCentreWithoutResult', 'CDTT': 25, 'CDNP': 5, 'CDNAI': 0, 'CDADDR': '5527639269', 'CDCN': 'Saint Kitts and Nevis', 'CDLOC': '-62.72,17.28', 'CGTT': 129, 'CGNP': 4, 'CGNAI': 3, 'CGADDR': '2138746420', 'CGCN': 'Ireland', 'CgLOC': '-6.25,53.35', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS2', 'CLSF': 'unknown', 'CAT': 'CAT_2_2', 'MSISDN': '2118278927', 'IMSI': '9122224545', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.231Z', 'OPC': '2-105-7', 'DPC': '3-111-1', 'OPCODE': 'secureTransportClass1', 'CDTT': 77, 'CDNP': 0, 'CDNAI': 2, 'CDADDR': '4238557203', 'CDCN': 'Kiribati', 'CDLOC': '173.00,1.50', 'CGTT': 199, 'CGNP': 1, 'CGNAI': 3, 'CGADDR': '9868525565', 'CGCN': 'Greece', 'CgLOC': '23.77,37.97', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS2', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '8010343755', 'IMSI': '2134893789', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.233Z', 'OPC': '3-1-6', 'DPC': '4-19-3', 'OPCODE': 'authenticationFailureReport', 'CDTT': 202, 'CDNP': 3, 'CDNAI': 2, 'CDADDR': '2138746420', 'CDCN': 'Palau', 'CDLOC': '134.47,7.33', 'CGTT': 207, 'CGNP': 2, 'CGNAI': 1, 'CGADDR': '7173602907', 'CGCN': 'Indonesia', 'CgLOC': '106.82,6.15', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS6', 'CLSF': 'unknown', 'CAT': 'CAT_3_1', 'MSISDN': '2118278927', 'IMSI': '7173602907', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.235Z', 'OPC': '1-5-7', 'DPC': '5-6-7', 'OPCODE': 'traceSubscriberActivity', 'CDTT': 91, 'CDNP': 3, 'CDNAI': 2, 'CDADDR': '2134893789', 'CDCN': 'Ivory Coast', 'CDLOC': '-5.47,7.37', 'CGTT': 167, 'CGNP': 6, 'CGNAI': 2, 'CGADDR': '2138746420', 'CGCN': 'Eritrea', 'CgLOC': '38.92,15.32', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS10', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '8001434577', 'IMSI': '9868525565', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.236Z', 'OPC': '3-1-6', 'DPC': '5-6-7', 'OPCODE': 'sendGroupCallEndSignal', 'CDTT': 218, 'CDNP': 1, 'CDNAI': 0, 'CDADDR': '9122224545', 'CDCN': 'Samoa', 'CDLOC': '-171.83,13.83', 'CGTT': 204, 'CGNP': 6, 'CGNAI': 2, 'CGADDR': '2118278927', 'CGCN': 'Togo', 'CgLOC': '1.33,6.15', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS6', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '6798289782', 'IMSI': '4238557203', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.237Z', 'OPC': '2-2-2', 'DPC': '3-3-3', 'OPCODE': 'secureTransportClass2', 'CDTT': 70, 'CDNP': 5, 'CDNAI': 2, 'CDADDR': '9122224545', 'CDCN': 'Finland', 'CDLOC': '25.05,60.25', 'CGTT': 45, 'CGNP': 2, 'CGNAI': 2, 'CGADDR': '4238557203', 'CGCN': 'Indonesia', 'CgLOC': '106.82,6.15', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS8', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '2118278927', 'IMSI': '7173602907', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.239Z', 'OPC': '2-105-7', 'DPC': '5-5-5', 'OPCODE': 'resumeCallHandling', 'CDTT': 27, 'CDNP': 4, 'CDNAI': 2, 'CDADDR': '9868525565', 'CDCN': 'Australia', 'CDLOC': '149.13,35.25', 'CGTT': 188, 'CGNP': 2, 'CGNAI': 3, 'CGADDR': '2134893789', 'CGCN': 'Bangladesh', 'CgLOC': '90.43,23.72', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS4', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '6798289782', 'IMSI': '2118278927', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.241Z', 'OPC': '1-5-7', 'DPC': '2-3-4', 'OPCODE': 'eraseCC-Entry', 'CDTT': 156, 'CDNP': 4, 'CDNAI': 3, 'CDADDR': '4563565368', 'CDCN': 'Malaysia', 'CDLOC': '101.68,3.15', 'CGTT': 240, 'CGNP': 6, 'CGNAI': 2, 'CGADDR': '9868525565', 'CGCN': 'Chile', 'CgLOC': '-70.67,33.40', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS5', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '2118278927', 'IMSI': '2138746420', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.243Z', 'OPC': '1-5-7', 'DPC': '4-19-3', 'OPCODE': 'checkIMEI', 'CDTT': 68, 'CDNP': 2, 'CDNAI': 1, 'CDADDR': '4238557203', 'CDCN': 'Costa Rica', 'CDLOC': '-84.03,9.92', 'CGTT': 235, 'CGNP': 6, 'CGNAI': 0, 'CGADDR': '9868525565', 'CGCN': 'East Timor', 'CgLOC': '125.57,8.48', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS1', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '4238557203', 'IMSI': '2138746420', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.244Z', 'OPC': '7-1-6', 'DPC': '7-15-4', 'OPCODE': 'secureTransportClass1', 'CDTT': 126, 'CDNP': 6, 'CDNAI': 1, 'CDADDR': '9127627629', 'CDCN': 'Ghana', 'CDLOC': '-0.10,5.58', 'CGTT': 5, 'CGNP': 2, 'CGNAI': 2, 'CGADDR': '9327862992', 'CGCN': 'Guyana', 'CgLOC': '-58.20,6.83', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS4', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '8010343755', 'IMSI': '7173602907', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.246Z', 'OPC': '3-1-6', 'DPC': '5-6-7', 'OPCODE': 'provideSIWFSNumber', 'CDTT': 149, 'CDNP': 1, 'CDNAI': 0, 'CDADDR': '9327862992', 'CDCN': 'Lebanon', 'CDLOC': '35.52,33.88', 'CGTT': 205, 'CGNP': 4, 'CGNAI': 1, 'CGADDR': '4563565368', 'CGCN': 'Brazil', 'CgLOC': '-47.92,15.78', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS7', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '2134893789', 'IMSI': '8010343755', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.249Z', 'OPC': '1-5-7', 'DPC': '2-3-4', 'OPCODE': 'cancelVcsgLocation', 'CDTT': 160, 'CDNP': 5, 'CDNAI': 3, 'CDADDR': '2138746420', 'CDCN': 'Slovakia', 'CDLOC': '17.12,48.17', 'CGTT': 161, 'CGNP': 4, 'CGNAI': 2, 'CGADDR': '9127627629', 'CGCN': 'Andorra', 'CgLOC': '1.53,42.52', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS2', 'CLSF': 'unknown', 'CAT': 'CAT_2_2', 'MSISDN': '5527639269', 'IMSI': '2118278927', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.251Z', 'OPC': '1-35-1', 'DPC': '2-3-4', 'OPCODE': 'performSubsequentHandover', 'CDTT': 161, 'CDNP': 6, 'CDNAI': 0, 'CDADDR': '9122224545', 'CDCN': 'Costa Rica', 'CDLOC': '-84.03,9.92', 'CGTT': 167, 'CGNP': 4, 'CGNAI': 0, 'CGADDR': '8001434577', 'CGCN': 'Laos', 'CgLOC': '103.05,18.62', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS10', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '8010343755', 'IMSI': '8010343755', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.253Z', 'OPC': '3-1-6', 'DPC': '5-6-7', 'OPCODE': 'prepareSubsequentHandover', 'CDTT': 48, 'CDNP': 6, 'CDNAI': 3, 'CDADDR': '4563565368', 'CDCN': 'Palau', 'CDLOC': '134.47,7.33', 'CGTT': 31, 'CGNP': 1, 'CGNAI': 2, 'CGADDR': '2138746420', 'CGCN': 'Turkmenistan', 'CgLOC': '57.83,38.00', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS5', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '4563565368', 'IMSI': '5527639269', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.255Z', 'OPC': '1-5-7', 'DPC': '5-6-7', 'OPCODE': 'noteSubscriberDataModified', 'CDTT': 45, 'CDNP': 4, 'CDNAI': 3, 'CDADDR': '2134893789', 'CDCN': 'Dominica', 'CDLOC': '-61.40,15.33', 'CGTT': 248, 'CGNP': 5, 'CGNAI': 2, 'CGADDR': '9868525565', 'CGCN': 'Saudi Arabia', 'CgLOC': '46.70,24.68', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS9', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '2134893789', 'IMSI': '2118278927', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.256Z', 'OPC': '2-2-2', 'DPC': '2-1-1', 'OPCODE': 'anyTimeSubscriptionInterrogation', 'CDTT': 238, 'CDNP': 0, 'CDNAI': 2, 'CDADDR': '9327862992', 'CDCN': 'Samoa', 'CDLOC': '-171.83,13.83', 'CGTT': 132, 'CGNP': 0, 'CGNAI': 2, 'CGADDR': '2138746420', 'CGCN': 'Bulgaria', 'CgLOC': '23.33,42.75', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS10', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '9327862992', 'IMSI': '4563565368', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.258Z', 'OPC': '2-2-2', 'DPC': '7-15-4', 'OPCODE': 'performHandover', 'CDTT': 101, 'CDNP': 2, 'CDNAI': 3, 'CDADDR': '4563565368', 'CDCN': 'Guinea-Bissau', 'CDLOC': '-15.75,11.75', 'CGTT': 219, 'CGNP': 3, 'CGNAI': 1, 'CGADDR': '5527639269', 'CGCN': 'Azerbaijan', 'CgLOC': '49.93,40.48', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS4', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '6798289782', 'IMSI': '4238557203', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.260Z', 'OPC': '2-2-2', 'DPC': '5-6-7', 'OPCODE': 'eraseCC-Entry', 'CDTT': 107, 'CDNP': 4, 'CDNAI': 0, 'CDADDR': '4238557203', 'CDCN': 'India', 'CDLOC': '77.22,28.62', 'CGTT': 61, 'CGNP': 2, 'CGNAI': 3, 'CGADDR': '4563565368', 'CGCN': 'Montenegro', 'CgLOC': '19.42,42.72', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS7', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '2138746420', 'IMSI': '2118278927', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.261Z', 'OPC': '1-35-1', 'DPC': '5-5-5', 'OPCODE': 'sendGroupCallInfo', 'CDTT': 146, 'CDNP': 3, 'CDNAI': 3, 'CDADDR': '9868525565', 'CDCN': 'Uruguay', 'CDLOC': '-56.18,34.83', 'CGTT': 13, 'CGNP': 2, 'CGNAI': 0, 'CGADDR': '6798289782', 'CGCN': 'Niger', 'CgLOC': '2.10,13.45', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS4', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '8001434577', 'IMSI': '8010343755', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.263Z', 'OPC': '1-5-7', 'DPC': '7-15-4', 'OPCODE': 'processGroupCallSignalling', 'CDTT': 74, 'CDNP': 2, 'CDNAI': 1, 'CDADDR': '4238557203', 'CDCN': 'Togo', 'CDLOC': '1.33,6.15', 'CGTT': 114, 'CGNP': 4, 'CGNAI': 0, 'CGADDR': '9127627629', 'CGCN': 'Thailand', 'CgLOC': '100.58,13.75', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS3', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '9127627629', 'IMSI': '2138746420', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.264Z', 'OPC': '2-105-7', 'DPC': '2-3-4', 'OPCODE': 'sendEndSignal', 'CDTT': 31, 'CDNP': 0, 'CDNAI': 2, 'CDADDR': '4238557203', 'CDCN': 'Liberia', 'CDLOC': '-10.78,6.30', 'CGTT': 245, 'CGNP': 0, 'CGNAI': 2, 'CGADDR': '7173602907', 'CGCN': 'Guinea-Bissau', 'CgLOC': '-15.75,11.75', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS10', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '8010343755', 'IMSI': '9127627629', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.266Z', 'OPC': '3-1-6', 'DPC': '5-6-7', 'OPCODE': 'istCommand', 'CDTT': 212, 'CDNP': 4, 'CDNAI': 1, 'CDADDR': '2134893789', 'CDCN': 'Sierra Leone', 'CDLOC': '-13.28,8.50', 'CGTT': 49, 'CGNP': 1, 'CGNAI': 2, 'CGADDR': '9122224545', 'CGCN': 'Haiti', 'CgLOC': '-72.33,18.67', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS2', 'CLSF': 'unknown', 'CAT': 'CAT_2_2', 'MSISDN': '2118278927', 'IMSI': '9127627629', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.269Z', 'OPC': '7-1-6', 'DPC': '5-5-5', 'OPCODE': 'forwardAccessSignalling', 'CDTT': 85, 'CDNP': 5, 'CDNAI': 1, 'CDADDR': '2134893789', 'CDCN': 'Bosnia and Herzegovina', 'CDLOC': '18.43,43.87', 'CGTT': 41, 'CGNP': 6, 'CGNAI': 2, 'CGADDR': '2118278927', 'CGCN': 'Democratic Republic of the Congo', 'CgLOC': '15.25,4.33', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS8', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '2134893789', 'IMSI': '8001434577', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.271Z', 'OPC': '2-2-2', 'DPC': '3-111-1', 'OPCODE': 'prepareGroupCall', 'CDTT': 38, 'CDNP': 5, 'CDNAI': 3, 'CDADDR': '9127627629', 'CDCN': 'Myanmar', 'CDLOC': '96.33,16.75', 'CGTT': 130, 'CGNP': 6, 'CGNAI': 0, 'CGADDR': '8010343755', 'CGCN': 'Spain', 'CgLOC': '-3.75,40.42', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS10', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '2138746420', 'IMSI': '8010343755', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.273Z', 'OPC': '1-5-7', 'DPC': '5-5-5', 'OPCODE': 'remoteUserFree', 'CDTT': 82, 'CDNP': 6, 'CDNAI': 3, 'CDADDR': '6798289782', 'CDCN': 'Dominican Republic', 'CDLOC': '-70.55,18.80', 'CGTT': 37, 'CGNP': 2, 'CGNAI': 0, 'CGADDR': '5527639269', 'CGCN': 'Grenada', 'CgLOC': '-62.23,12.08', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS4', 'CLSF': 'unknown', 'CAT': 'CAT_2_2', 'MSISDN': '8001434577', 'IMSI': '8001434577', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.274Z', 'OPC': '3-1-6', 'DPC': '5-5-5', 'OPCODE': 'alertServiceCentre', 'CDTT': 94, 'CDNP': 3, 'CDNAI': 2, 'CDADDR': '2134893789', 'CDCN': 'Ukraine', 'CDLOC': '30.47,50.50', 'CGTT': 11, 'CGNP': 5, 'CGNAI': 3, 'CGADDR': '9122224545', 'CGCN': 'Afghanistan', 'CgLOC': '69.18,34.47', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS1', 'CLSF': 'unknown', 'CAT': 'CAT_2_2', 'MSISDN': '9127627629', 'IMSI': '9122224545', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.276Z', 'OPC': '1-5-7', 'DPC': '3-111-1', 'OPCODE': 'ss-Invocation-Notification', 'CDTT': 202, 'CDNP': 3, 'CDNAI': 3, 'CDADDR': '9122224545', 'CDCN': 'El Salvador', 'CDLOC': '-89.17,13.67', 'CGTT': 229, 'CGNP': 6, 'CGNAI': 2, 'CGADDR': '4238557203', 'CGCN': 'Brazil', 'CgLOC': '-47.92,15.78', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS6', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '4238557203', 'IMSI': '2138746420', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.278Z', 'OPC': '1-5-7', 'DPC': '4-19-3', 'OPCODE': 'noteSubscriberDataModified', 'CDTT': 147, 'CDNP': 0, 'CDNAI': 0, 'CDADDR': '2118278927', 'CDCN': 'Libya', 'CDLOC': '13.32,33.47', 'CGTT': 21, 'CGNP': 4, 'CGNAI': 0, 'CGADDR': '2138746420', 'CGCN': 'Saudi Arabia', 'CgLOC': '46.70,24.68', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS4', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '9122224545', 'IMSI': '4238557203', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.279Z', 'OPC': '1-35-1', 'DPC': '5-5-5', 'OPCODE': 'processAccessSignalling', 'CDTT': 247, 'CDNP': 1, 'CDNAI': 3, 'CDADDR': '8001434577', 'CDCN': 'Bahrain', 'CDLOC': '50.50,26.17', 'CGTT': 138, 'CGNP': 4, 'CGNAI': 1, 'CGADDR': '5527639269', 'CGCN': 'Saudi Arabia', 'CgLOC': '46.70,24.68', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS6', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '2134893789', 'IMSI': '9327862992', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.281Z', 'OPC': '6-45-4', 'DPC': '7-15-4', 'OPCODE': 'secureTransportClass4', 'CDTT': 171, 'CDNP': 3, 'CDNAI': 1, 'CDADDR': '8001434577', 'CDCN': 'Mauritius', 'CDLOC': '57.83,20.27', 'CGTT': 128, 'CGNP': 3, 'CGNAI': 0, 'CGADDR': '2138746420', 'CGCN': 'Lebanon', 'CgLOC': '35.52,33.88', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS10', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '9327862992', 'IMSI': '6798289782', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.283Z', 'OPC': '2-2-2', 'DPC': '2-1-1', 'OPCODE': 'processAccessSignalling', 'CDTT': 85, 'CDNP': 3, 'CDNAI': 2, 'CDADDR': '9327862992', 'CDCN': 'Poland', 'CDLOC': '21.00,52.22', 'CGTT': 221, 'CGNP': 4, 'CGNAI': 0, 'CGADDR': '8010343755', 'CGCN': 'Greece', 'CgLOC': '23.77,37.97', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS4', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '4563565368', 'IMSI': '9122224545', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.285Z', 'OPC': '2-2-2', 'DPC': '7-15-4', 'OPCODE': 'sendGroupCallInfo', 'CDTT': 63, 'CDNP': 2, 'CDNAI': 3, 'CDADDR': '4563565368', 'CDCN': 'Ireland', 'CDLOC': '-6.25,53.35', 'CGTT': 164, 'CGNP': 4, 'CGNAI': 1, 'CGADDR': '4563565368', 'CGCN': 'Haiti', 'CgLOC': '-72.33,18.67', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS9', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '8001434577', 'IMSI': '8001434577', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.287Z', 'OPC': '6-45-4', 'DPC': '2-1-1', 'OPCODE': 'registerCC-Entry', 'CDTT': 200, 'CDNP': 0, 'CDNAI': 1, 'CDADDR': '6798289782', 'CDCN': 'Congo', 'CDLOC': '15.20,4.15', 'CGTT': 55, 'CGNP': 4, 'CGNAI': 3, 'CGADDR': '6798289782', 'CGCN': 'Tajikistan', 'CgLOC': '68.80,38.55', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS9', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '8010343755', 'IMSI': '9327862992', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.288Z', 'OPC': '1-5-7', 'DPC': '5-5-5', 'OPCODE': 'noteSubscriberDataModified', 'CDTT': 122, 'CDNP': 1, 'CDNAI': 0, 'CDADDR': '8010343755', 'CDCN': 'Indonesia', 'CDLOC': '106.82,6.15', 'CGTT': 87, 'CGNP': 6, 'CGNAI': 3, 'CGADDR': '5527639269', 'CGCN': 'Cape Verde', 'CgLOC': '-23.57,15.03', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS7', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '9868525565', 'IMSI': '9868525565', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.291Z', 'OPC': '2-2-2', 'DPC': '2-1-1', 'OPCODE': 'secureTransportClass1', 'CDTT': 159, 'CDNP': 2, 'CDNAI': 3, 'CDADDR': '9127627629', 'CDCN': 'Cameroon', 'CDLOC': '11.58,3.83', 'CGTT': 207, 'CGNP': 4, 'CGNAI': 2, 'CGADDR': '9127627629', 'CGCN': 'Qatar', 'CgLOC': '51.58,25.25', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS2', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '8001434577', 'IMSI': '6798289782', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.293Z', 'OPC': '2-2-2', 'DPC': '2-3-4', 'OPCODE': 'remoteUserFree', 'CDTT': 118, 'CDNP': 6, 'CDNAI': 3, 'CDADDR': '4238557203', 'CDCN': 'Fiji', 'CDLOC': '178.50,18.10', 'CGTT': 67, 'CGNP': 0, 'CGNAI': 1, 'CGADDR': '8010343755', 'CGCN': 'Venezuela', 'CgLOC': '-66.92,10.50', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS3', 'CLSF': 'unknown', 'CAT': 'CAT_2_2', 'MSISDN': '8001434577', 'IMSI': '4238557203', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.295Z', 'OPC': '3-1-6', 'DPC': '5-6-7', 'OPCODE': 'registerCC-Entry', 'CDTT': 95, 'CDNP': 6, 'CDNAI': 1, 'CDADDR': '2118278927', 'CDCN': 'Greece', 'CDLOC': '23.77,37.97', 'CGTT': 92, 'CGNP': 0, 'CGNAI': 3, 'CGADDR': '4563565368', 'CGCN': 'Chile', 'CgLOC': '-70.67,33.40', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS7', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '9868525565', 'IMSI': '8010343755', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.298Z', 'OPC': '1-35-1', 'DPC': '5-5-5', 'OPCODE': 'sendGroupCallEndSignal', 'CDTT': 206, 'CDNP': 4, 'CDNAI': 3, 'CDADDR': '7173602907', 'CDCN': 'Oman', 'CDLOC': '58.60,23.62', 'CGTT': 194, 'CGNP': 1, 'CGNAI': 0, 'CGADDR': '5527639269', 'CGCN': 'Grenada', 'CgLOC': '-62.23,12.08', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS1', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '7173602907', 'IMSI': '6798289782', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.300Z', 'OPC': '1-35-1', 'DPC': '2-3-4', 'OPCODE': 'secureTransportClass4', 'CDTT': 149, 'CDNP': 6, 'CDNAI': 2, 'CDADDR': '7173602907', 'CDCN': 'Ireland', 'CDLOC': '-6.25,53.35', 'CGTT': 202, 'CGNP': 1, 'CGNAI': 3, 'CGADDR': '6798289782', 'CGCN': 'Qatar', 'CgLOC': '51.58,25.25', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS8', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '2134893789', 'IMSI': '9127627629', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.302Z', 'OPC': '2-2-2', 'DPC': '7-15-4', 'OPCODE': 'siwfs-SignallingModify', 'CDTT': 106, 'CDNP': 4, 'CDNAI': 0, 'CDADDR': '5527639269', 'CDCN': 'Tuvalu', 'CDLOC': '179.22,8.52', 'CGTT': 158, 'CGNP': 3, 'CGNAI': 2, 'CGADDR': '2118278927', 'CGCN': 'Romania', 'CgLOC': '26.17,44.45', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS3', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '4563565368', 'IMSI': '6798289782', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.304Z', 'OPC': '1-35-1', 'DPC': '4-19-3', 'OPCODE': 'registerCC-Entry', 'CDTT': 235, 'CDNP': 2, 'CDNAI': 1, 'CDADDR': '4563565368', 'CDCN': 'Netherlands', 'CDLOC': '4.90,52.38', 'CGTT': 46, 'CGNP': 4, 'CGNAI': 2, 'CGADDR': '7173602907', 'CGCN': 'Hong Kong', 'CgLOC': '114.25,22.47', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS7', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '4563565368', 'IMSI': '7173602907', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.306Z', 'OPC': '6-45-4', 'DPC': '3-111-1', 'OPCODE': 'anyTimeSubscriptionInterrogation', 'CDTT': 30, 'CDNP': 0, 'CDNAI': 0, 'CDADDR': '6798289782', 'CDCN': 'Burkina Faso', 'CDLOC': '-1.50,12.25', 'CGTT': 233, 'CGNP': 5, 'CGNAI': 3, 'CGADDR': '7173602907', 'CGCN': 'Australia', 'CgLOC': '149.13,35.25', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS6', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '9327862992', 'IMSI': '4238557203', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.307Z', 'OPC': '3-1-6', 'DPC': '3-111-1', 'OPCODE': 'updateVcsgLocation  ', 'CDTT': 29, 'CDNP': 3, 'CDNAI': 0, 'CDADDR': '9122224545', 'CDCN': 'Bangladesh', 'CDLOC': '90.43,23.72', 'CGTT': 59, 'CGNP': 5, 'CGNAI': 2, 'CGADDR': '2138746420', 'CGCN': 'Maldives', 'CgLOC': '73.47,4.00', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS5', 'CLSF': 'unknown', 'CAT': 'CAT_3_2', 'MSISDN': '9868525565', 'IMSI': '9868525565', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.309Z', 'OPC': '7-1-6', 'DPC': '3-3-3', 'OPCODE': 'forwardCheckSsIndication', 'CDTT': 235, 'CDNP': 1, 'CDNAI': 0, 'CDADDR': '8010343755', 'CDCN': 'Somalia', 'CDLOC': '45.42,2.03', 'CGTT': 110, 'CGNP': 6, 'CGNAI': 1, 'CGADDR': '8010343755', 'CGCN': 'Liberia', 'CgLOC': '-10.78,6.30', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS6', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '2138746420', 'IMSI': '9868525565', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.311Z', 'OPC': '1-5-7', 'DPC': '5-5-5', 'OPCODE': 'secureTransportClass1', 'CDTT': 116, 'CDNP': 1, 'CDNAI': 2, 'CDADDR': '2138746420', 'CDCN': 'Djibouti', 'CDLOC': '42.33,11.13', 'CGTT': 22, 'CGNP': 5, 'CGNAI': 2, 'CGADDR': '8010343755', 'CGCN': 'Samoa', 'CgLOC': '-171.83,13.83', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS5', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '5527639269', 'IMSI': '7173602907', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.313Z', 'OPC': '1-5-7', 'DPC': '7-15-4', 'OPCODE': 'sendGroupCallInfo', 'CDTT': 208, 'CDNP': 6, 'CDNAI': 3, 'CDADDR': '8010343755', 'CDCN': 'Japan', 'CDLOC': '140.08,36.12', 'CGTT': 29, 'CGNP': 1, 'CGNAI': 2, 'CGADDR': '9122224545', 'CGCN': 'Venezuela', 'CgLOC': '-66.92,10.50', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS7', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '4238557203', 'IMSI': '9327862992', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.315Z', 'OPC': '2-2-2', 'DPC': '2-1-1', 'OPCODE': 'performHandover', 'CDTT': 156, 'CDNP': 6, 'CDNAI': 1, 'CDADDR': '9122224545', 'CDCN': 'Thailand', 'CDLOC': '100.58,13.75', 'CGTT': 44, 'CGNP': 6, 'CGNAI': 1, 'CGADDR': '2118278927', 'CGCN': 'Dominican Republic', 'CgLOC': '-70.55,18.80', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS2', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '9127627629', 'IMSI': '4563565368', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.317Z', 'OPC': '2-105-7', 'DPC': '5-6-7', 'OPCODE': 'istAlert', 'CDTT': 123, 'CDNP': 5, 'CDNAI': 2, 'CDADDR': '2138746420', 'CDCN': 'Moldova', 'CDLOC': '29.43,47.02', 'CGTT': 210, 'CGNP': 3, 'CGNAI': 2, 'CGADDR': '2118278927', 'CGCN': 'Japan', 'CgLOC': '140.08,36.12', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS8', 'CLSF': 'unknown', 'CAT': 'CAT_3_1', 'MSISDN': '9327862992', 'IMSI': '9327862992', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.318Z', 'OPC': '3-1-6', 'DPC': '3-3-3', 'OPCODE': 'noteSubscriberDataModified', 'CDTT': 198, 'CDNP': 0, 'CDNAI': 1, 'CDADDR': '6798289782', 'CDCN': 'Democratic Republic of the Congo', 'CDLOC': '15.25,4.33', 'CGTT': 183, 'CGNP': 0, 'CGNAI': 1, 'CGADDR': '8010343755', 'CGCN': 'Angola', 'CgLOC': '13.25,8.83', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS5', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '8010343755', 'IMSI': '2134893789', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.320Z', 'OPC': '1-5-7', 'DPC': '3-111-1', 'OPCODE': 'activateTraceMode', 'CDTT': 140, 'CDNP': 5, 'CDNAI': 1, 'CDADDR': '2138746420', 'CDCN': 'Botswana', 'CDLOC': '25.95,24.75', 'CGTT': 23, 'CGNP': 5, 'CGNAI': 3, 'CGADDR': '2138746420', 'CGCN': 'Democratic Republic of the Congo', 'CgLOC': '15.25,4.33', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS7', 'CLSF': 'unknown', 'CAT': 'CAT_2_2', 'MSISDN': '2138746420', 'IMSI': '6798289782', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.322Z', 'OPC': '7-1-6', 'DPC': '5-5-5', 'OPCODE': 'prepareHandover', 'CDTT': 154, 'CDNP': 3, 'CDNAI': 0, 'CDADDR': '9122224545', 'CDCN': 'Guinea', 'CDLOC': '-13.82,9.48', 'CGTT': 147, 'CGNP': 6, 'CGNAI': 3, 'CGADDR': '9127627629', 'CGCN': 'Syria', 'CgLOC': '36.30,33.50', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS9', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '4238557203', 'IMSI': '7173602907', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.324Z', 'OPC': '7-1-6', 'DPC': '3-3-3', 'OPCODE': 'noteInternalHandover', 'CDTT': 243, 'CDNP': 0, 'CDNAI': 3, 'CDADDR': '8010343755', 'CDCN': 'Cambodia', 'CDLOC': '104.92,11.55', 'CGTT': 232, 'CGNP': 2, 'CGNAI': 1, 'CGADDR': '4563565368', 'CGCN': 'Iceland', 'CgLOC': '-21.95,64.17', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS2', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '4238557203', 'IMSI': '9868525565', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.326Z', 'OPC': '2-2-2', 'DPC': '2-3-4', 'OPCODE': 'performHandover', 'CDTT': 14, 'CDNP': 1, 'CDNAI': 3, 'CDADDR': '2134893789', 'CDCN': 'Sudan', 'CDLOC': '32.58,15.52', 'CGTT': 232, 'CGNP': 6, 'CGNAI': 2, 'CGADDR': '6798289782', 'CGCN': 'Bulgaria', 'CgLOC': '23.33,42.75', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS7', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '9127627629', 'IMSI': '4238557203', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.327Z', 'OPC': '2-2-2', 'DPC': '3-111-1', 'OPCODE': 'alertServiceCentreWithoutResult', 'CDTT': 50, 'CDNP': 2, 'CDNAI': 1, 'CDADDR': '7173602907', 'CDCN': 'Cape Verde', 'CDLOC': '-23.57,15.03', 'CGTT': 43, 'CGNP': 1, 'CGNAI': 0, 'CGADDR': '9122224545', 'CGCN': 'Eritrea', 'CgLOC': '38.92,15.32', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS9', 'CLSF': 'unknown', 'CAT': 'CAT_2_2', 'MSISDN': '2138746420', 'IMSI': '8010343755', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.329Z', 'OPC': '6-45-4', 'DPC': '2-1-1', 'OPCODE': 'ss-Invocation-Notification', 'CDTT': 180, 'CDNP': 3, 'CDNAI': 1, 'CDADDR': '9127627629', 'CDCN': 'Cameroon', 'CDLOC': '11.58,3.83', 'CGTT': 132, 'CGNP': 5, 'CGNAI': 1, 'CGADDR': '8001434577', 'CGCN': 'Iceland', 'CgLOC': '-21.95,64.17', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS9', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '9122224545', 'IMSI': '2118278927', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.336Z', 'OPC': '1-5-7', 'DPC': '2-1-1', 'OPCODE': 'statusReport', 'CDTT': 72, 'CDNP': 2, 'CDNAI': 0, 'CDADDR': '9868525565', 'CDCN': 'China', 'CDLOC': '116.33,39.92', 'CGTT': 8, 'CGNP': 3, 'CGNAI': 3, 'CGADDR': '9868525565', 'CGCN': 'Netherlands', 'CgLOC': '4.90,52.38', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS2', 'CLSF': 'unknown', 'CAT': 'null', 'MSISDN': '4563565368', 'IMSI': '9868525565', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.338Z', 'OPC': '7-1-6', 'DPC': '2-3-4', 'OPCODE': 'noteMsPresentForGprs', 'CDTT': 79, 'CDNP': 3, 'CDNAI': 0, 'CDADDR': '2138746420', 'CDCN': 'Montenegro', 'CDLOC': '19.42,42.72', 'CGTT': 82, 'CGNP': 0, 'CGNAI': 3, 'CGADDR': '2118278927', 'CGCN': 'VietNam', 'CgLOC': '105.92,21.08', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS1', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '7173602907', 'IMSI': '5527639269', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.340Z', 'OPC': '2-2-2', 'DPC': '3-111-1', 'OPCODE': 'secureTransportClass1', 'CDTT': 216, 'CDNP': 4, 'CDNAI': 0, 'CDADDR': '6798289782', 'CDCN': 'Swaziland', 'CDLOC': '31.10,26.30', 'CGTT': 106, 'CGNP': 3, 'CGNAI': 0, 'CGADDR': '2134893789', 'CGCN': 'Greece', 'CgLOC': '23.77,37.97', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS2', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '4238557203', 'IMSI': '9868525565', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.342Z', 'OPC': '7-1-6', 'DPC': '2-1-1', 'OPCODE': 'checkIMEI', 'CDTT': 32, 'CDNP': 6, 'CDNAI': 1, 'CDADDR': '6798289782', 'CDCN': 'Eritrea', 'CDLOC': '38.92,15.32', 'CGTT': 227, 'CGNP': 2, 'CGNAI': 0, 'CGADDR': '9327862992', 'CGCN': 'Mongolia', 'CgLOC': '107.50,48.47', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS4', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '8010343755', 'IMSI': '4563565368', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.343Z', 'OPC': '3-1-6', 'DPC': '5-5-5', 'OPCODE': 'resumeCallHandling', 'CDTT': 16, 'CDNP': 5, 'CDNAI': 1, 'CDADDR': '9122224545', 'CDCN': 'Egypt', 'CDLOC': '31.23,30.02', 'CGTT': 38, 'CGNP': 0, 'CGNAI': 2, 'CGADDR': '2138746420', 'CGCN': 'Slovenia', 'CgLOC': '14.55,46.07', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS1', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '9122224545', 'IMSI': '2118278927', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.345Z', 'OPC': '6-45-4', 'DPC': '2-1-1', 'OPCODE': 'secureTransportClass1', 'CDTT': 210, 'CDNP': 5, 'CDNAI': 2, 'CDADDR': '8001434577', 'CDCN': 'Saudi Arabia', 'CDLOC': '46.70,24.68', 'CGTT': 153, 'CGNP': 1, 'CGNAI': 0, 'CGADDR': '9122224545', 'CGCN': 'Spain', 'CgLOC': '-3.75,40.42', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS7', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '8001434577', 'IMSI': '9127627629', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.348Z', 'OPC': '3-1-6', 'DPC': '4-19-3', 'OPCODE': 'eraseCC-Entry', 'CDTT': 158, 'CDNP': 0, 'CDNAI': 3, 'CDADDR': '6798289782', 'CDCN': 'Ecuador', 'CDLOC': '-78.58,0.25', 'CGTT': 27, 'CGNP': 3, 'CGNAI': 3, 'CGADDR': '8010343755', 'CGCN': 'Dominica', 'CgLOC': '-61.40,15.33', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS1', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '2134893789', 'IMSI': '2134893789', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.351Z', 'OPC': '1-35-1', 'DPC': '7-15-4', 'OPCODE': 'anyTimeSubscriptionInterrogation', 'CDTT': 160, 'CDNP': 4, 'CDNAI': 0, 'CDADDR': '2118278927', 'CDCN': 'Fiji', 'CDLOC': '178.50,18.10', 'CGTT': 58, 'CGNP': 1, 'CGNAI': 0, 'CGADDR': '4238557203', 'CGCN': 'Antigua and Barbuda', 'CgLOC': '-61.80,17.33', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS10', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '8001434577', 'IMSI': '9122224545', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.354Z', 'OPC': '6-45-4', 'DPC': '3-111-1', 'OPCODE': 'siwfs-SignallingModify', 'CDTT': 37, 'CDNP': 2, 'CDNAI': 2, 'CDADDR': '9127627629', 'CDCN': 'Philippines', 'CDLOC': '121.05,14.67', 'CGTT': 3, 'CGNP': 6, 'CGNAI': 1, 'CGADDR': '5527639269', 'CGCN': 'Swaziland', 'CgLOC': '31.10,26.30', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS1', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '2138746420', 'IMSI': '9127627629', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.357Z', 'OPC': '2-2-2', 'DPC': '2-1-1', 'OPCODE': 'registerCC-Entry', 'CDTT': 52, 'CDNP': 6, 'CDNAI': 1, 'CDADDR': '4238557203', 'CDCN': 'Dominican Republic', 'CDLOC': '-70.55,18.80', 'CGTT': 127, 'CGNP': 3, 'CGNAI': 3, 'CGADDR': '5527639269', 'CGCN': 'Ethiopia', 'CgLOC': '38.70,9.03', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS5', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '6798289782', 'IMSI': '4238557203', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.359Z', 'OPC': '2-105-7', 'DPC': '7-15-4', 'OPCODE': 'notifySS', 'CDTT': 72, 'CDNP': 1, 'CDNAI': 1, 'CDADDR': '8010343755', 'CDCN': 'St. Helena', 'CDLOC': '-6.17,16.60', 'CGTT': 170, 'CGNP': 4, 'CGNAI': 0, 'CGADDR': '7173602907', 'CGCN': 'New Zealand', 'CgLOC': '174.77,41.32', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS1', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '8010343755', 'IMSI': '8010343755', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.374Z', 'OPC': '3-1-6', 'DPC': '3-111-1', 'OPCODE': 'noteInternalHandover', 'CDTT': 138, 'CDNP': 6, 'CDNAI': 1, 'CDADDR': '4238557203', 'CDCN': 'Mongolia', 'CDLOC': '107.50,48.47', 'CGTT': 14, 'CGNP': 4, 'CGNAI': 1, 'CGADDR': '7173602907', 'CGCN': 'Panama', 'CgLOC': '-79.42,9.00', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS4', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '2138746420', 'IMSI': '8001434577', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.376Z', 'OPC': '7-1-6', 'DPC': '2-3-4', 'OPCODE': 'performHandover', 'CDTT': 252, 'CDNP': 2, 'CDNAI': 0, 'CDADDR': '8001434577', 'CDCN': 'Russia', 'CDLOC': '38.02,56.25', 'CGTT': 107, 'CGNP': 4, 'CGNAI': 0, 'CGADDR': '5527639269', 'CGCN': 'Jamaica', 'CgLOC': '-76.83,18.00', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS4', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '9127627629', 'IMSI': '9122224545', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.378Z', 'OPC': '3-1-6', 'DPC': '3-3-3', 'OPCODE': 'prepareSubsequentHandover', 'CDTT': 113, 'CDNP': 0, 'CDNAI': 0, 'CDADDR': '2118278927', 'CDCN': 'Montenegro', 'CDLOC': '19.42,42.72', 'CGTT': 116, 'CGNP': 6, 'CGNAI': 2, 'CGADDR': '9122224545', 'CGCN': 'Finland', 'CgLOC': '25.05,60.25', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS10', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '7173602907', 'IMSI': '4238557203', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.380Z', 'OPC': '7-1-6', 'DPC': '2-3-4', 'OPCODE': 'statusReport', 'CDTT': 165, 'CDNP': 4, 'CDNAI': 1, 'CDADDR': '2134893789', 'CDCN': 'Indonesia', 'CDLOC': '106.82,6.15', 'CGTT': 110, 'CGNP': 2, 'CGNAI': 3, 'CGADDR': '2138746420', 'CGCN': 'Guinea-Bissau', 'CgLOC': '-15.75,11.75', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS9', 'CLSF': 'unknown', 'CAT': 'null', 'MSISDN': '7173602907', 'IMSI': '7173602907', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.382Z', 'OPC': '1-5-7', 'DPC': '2-1-1', 'OPCODE': 'ss-Invocation-Notification', 'CDTT': 179, 'CDNP': 2, 'CDNAI': 0, 'CDADDR': '2134893789', 'CDCN': 'New Zealand', 'CDLOC': '174.77,41.32', 'CGTT': 120, 'CGNP': 5, 'CGNAI': 2, 'CGADDR': '8001434577', 'CGCN': 'United Arab Emirates', 'CgLOC': '54.37,24.47', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS7', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '2118278927', 'IMSI': '4238557203', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.384Z', 'OPC': '3-1-6', 'DPC': '4-19-3', 'OPCODE': 'informServiceCentre', 'CDTT': 211, 'CDNP': 3, 'CDNAI': 1, 'CDADDR': '2134893789', 'CDCN': 'Angola', 'CDLOC': '13.25,8.83', 'CGTT': 35, 'CGNP': 2, 'CGNAI': 0, 'CGADDR': '9868525565', 'CGCN': 'Swaziland', 'CgLOC': '31.10,26.30', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS9', 'CLSF': 'unknown', 'CAT': 'CAT_2_2', 'MSISDN': '8001434577', 'IMSI': '4238557203', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.386Z', 'OPC': '6-45-4', 'DPC': '5-5-5', 'OPCODE': 'sendGroupCallEndSignal', 'CDTT': 99, 'CDNP': 2, 'CDNAI': 0, 'CDADDR': '9127627629', 'CDCN': 'Sao Tome and Principe', 'CDLOC': '6.65,0.17', 'CGTT': 86, 'CGNP': 3, 'CGNAI': 2, 'CGADDR': '9868525565', 'CGCN': 'Malta', 'CgLOC': '14.52,35.90', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS4', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '8001434577', 'IMSI': '2118278927', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.388Z', 'OPC': '2-2-2', 'DPC': '5-6-7', 'OPCODE': 'prepareHandover', 'CDTT': 232, 'CDNP': 3, 'CDNAI': 3, 'CDADDR': '2134893789', 'CDCN': 'Mexico', 'CDLOC': '-99.17,19.33', 'CGTT': 217, 'CGNP': 2, 'CGNAI': 3, 'CGADDR': '9868525565', 'CGCN': 'Hungary', 'CgLOC': '19.08,47.48', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS5', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '9868525565', 'IMSI': '2134893789', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.390Z', 'OPC': '2-2-2', 'DPC': '7-15-4', 'OPCODE': 'resumeCallHandling', 'CDTT': 215, 'CDNP': 4, 'CDNAI': 3, 'CDADDR': '9127627629', 'CDCN': 'Belgium', 'CDLOC': '4.35,50.85', 'CGTT': 208, 'CGNP': 3, 'CGNAI': 0, 'CGADDR': '2134893789', 'CGCN': 'Samoa', 'CgLOC': '-171.83,13.83', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS8', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '5527639269', 'IMSI': '9122224545', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.391Z', 'OPC': '3-1-6', 'DPC': '4-19-3', 'OPCODE': 'secureTransportClass2', 'CDTT': 68, 'CDNP': 1, 'CDNAI': 0, 'CDADDR': '2134893789', 'CDCN': 'Colombia', 'CDLOC': '-74.00,4.57', 'CGTT': 93, 'CGNP': 5, 'CGNAI': 1, 'CGADDR': '9122224545', 'CGCN': 'San Marino', 'CgLOC': '12.50,43.92', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS7', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '9122224545', 'IMSI': '9127627629', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.396Z', 'OPC': '2-2-2', 'DPC': '7-15-4', 'OPCODE': 'sendEndSignal', 'CDTT': 12, 'CDNP': 5, 'CDNAI': 3, 'CDADDR': '2138746420', 'CDCN': 'Algeria', 'CDLOC': '3.13,36.70', 'CGTT': 130, 'CGNP': 6, 'CGNAI': 1, 'CGADDR': '8010343755', 'CGCN': 'Djibouti', 'CgLOC': '42.33,11.13', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS8', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '2138746420', 'IMSI': '2118278927', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.398Z', 'OPC': '3-1-6', 'DPC': '4-19-3', 'OPCODE': 'registerCC-Entry', 'CDTT': 3, 'CDNP': 0, 'CDNAI': 2, 'CDADDR': '9327862992', 'CDCN': 'Hong Kong', 'CDLOC': '114.25,22.47', 'CGTT': 184, 'CGNP': 1, 'CGNAI': 3, 'CGADDR': '2118278927', 'CGCN': 'Indonesia', 'CgLOC': '106.82,6.15', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS4', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '8001434577', 'IMSI': '2118278927', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.401Z', 'OPC': '3-1-6', 'DPC': '5-5-5', 'OPCODE': 'cancelVcsgLocation', 'CDTT': 217, 'CDNP': 2, 'CDNAI': 0, 'CDADDR': '2134893789', 'CDCN': 'Liechtenstein', 'CDLOC': '9.52,47.13', 'CGTT': 140, 'CGNP': 5, 'CGNAI': 2, 'CGADDR': '9327862992', 'CGCN': 'Guinea', 'CgLOC': '-13.82,9.48', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS6', 'CLSF': 'unknown', 'CAT': 'CAT_2_2', 'MSISDN': '2134893789', 'IMSI': '7173602907', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.403Z', 'OPC': '6-45-4', 'DPC': '2-1-1', 'OPCODE': 'sendGroupCallInfo', 'CDTT': 184, 'CDNP': 4, 'CDNAI': 3, 'CDADDR': '8001434577', 'CDCN': 'Ecuador', 'CDLOC': '-78.58,0.25', 'CGTT': 146, 'CGNP': 3, 'CGNAI': 2, 'CGADDR': '2118278927', 'CGCN': 'Brazil', 'CgLOC': '-47.92,15.78', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS2', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '9127627629', 'IMSI': '2138746420', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
+{'@timestamp': '2021-02-03T17:56:40.405Z', 'OPC': '6-45-4', 'DPC': '2-3-4', 'OPCODE': 'sendEndSignal', 'CDTT': 80, 'CDNP': 5, 'CDNAI': 1, 'CDADDR': '2138746420', 'CDCN': 'Namibia', 'CDLOC': '17.07,22.58', 'CGTT': 197, 'CGNP': 1, 'CGNAI': 1, 'CGADDR': '2118278927', 'CGCN': 'Madagascar', 'CgLOC': '47.52,18.92', 'ATYPE': 'null', 'ASUBTYPE': 'null', 'LSET': 'LS6', 'CLSF': 'unknown', 'CAT': 'CAT_1_0', 'MSISDN': '4563565368', 'IMSI': '9868525565', 'CLLI': 'tklc1111101', 'SameCountryCode': '0'}
