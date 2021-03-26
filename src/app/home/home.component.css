@@ -17,3 +17,8 @@ td{
 .tab{
     tab-size: 2;
 }
+
+.example-chip-list {
+    width: 100%;
+    margin: 10px;
+  }

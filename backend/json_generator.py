@@ -62,7 +62,7 @@ while boolean == False:
         RAND_CASE2 = random.randint(0, 32767) % Anomaly_Percent
         RAND_CASE3 = random.randint(0, 32767) % Anomaly_Percent
 
-    if (RAND_CASE1 + RAND_CASE2 + RAND_CASE3) <= Anomaly_Percent:
+    if (RAND_CASE1 + RAND_CASE2 + RAND_CASE3) == Anomaly_Percent:
         boolean = True
 
 Message_case1 = (LOOP * (RAND_CASE1) / 100)
@@ -429,7 +429,7 @@ ASUBTYPE_VALUE = ["['profileDisclosure','callRedirection','callInterception','sm
                   "[]", "[]", "[]", "[]", "[]", "[]", "[]", "['spoofing']", "['IMSIDisclosure','networkDisclosure']", "['spoofing']", "[]", "[]", "[]", "[]", "['USSDManipulation']", "['cryptRetrieval']", "['cryptRetrieval']", "['profileDisclosure']", "['IMSIDisclosure']", "['USSDManipulation','spoofing']", "['USSDManipulation','spoofing']", "['USSDManipulation','spoofing']", "[]", "['callRedirection','chargingEvasion','callInterception','servUnavail']", "[]", "['servUnavail']", "[]", "[]", "['locationDiscovery','networkDisclosure']", "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]", "['IMSIDisclosure']", "['spoofing']", "[]", "['eventspoofing']"]
 
 
-for var in range(LOOP):
+for var in range(1,LOOP+1):
     RAND_OPC = random.randint(0, 32767) % len(OPC_VALUE)
     RAND_DPC = random.randint(0, 32767) % len(DPC_VALUE)
     RAND_TCAP= random.randint(0, 32767) % len(TCAP_VALUE)
@@ -526,7 +526,6 @@ for var in range(LOOP):
 
     elif TCAP_VALUE[RAND_TCAP] == "END":
         OTID_VALUE= random.sample(IDREGISTRY,1)[0] 
-        print("-------------------")
         print(OTID_VALUE)
         while OTID_VALUE in CONTIDS:
             OTID_VALUE= random.sample(IDREGISTRY,1)[0]
@@ -544,7 +543,7 @@ for var in range(LOOP):
     # Generate the One random message(in JSON format) according to above rules.
     if ((var > (Message_case1 + Message_case2 + Message_case3)) and (var <= LOOP)):
         MSG = {
-            "@timestamp": date,
+            # "@timestamp": date,
             "OPC": OPC_VALUE_,
             "DPC": DPC_VALUE_,
             "OTID": OTID_VALUE,
@@ -577,7 +576,7 @@ for var in range(LOOP):
             tmpfile.write(str(MSG)+"\n")
     elif (var <= Message_case1):
         MSG = {
-            "@timestamp": date,
+            # "@timestamp": date,
             "OPC": OPC_VALUE_,
             "DPC": DPC_VALUE_,
             "OTID": OTID_VALUE,
@@ -611,7 +610,7 @@ for var in range(LOOP):
     elif ((var > (Message_case1 + Message_case2)) and (var <= (Message_case1 + Message_case2 + Message_case3))):
         # CASE 3 HITS
         MSG = {
-            "@timestamp": date,
+            # "@timestamp": date,
             "OPC": OPC_VALUE_,
             "DPC": DPC_VALUE_,
             "OTID": OTID_VALUE,
@@ -646,7 +645,7 @@ for var in range(LOOP):
     elif ((var > (Message_case1)) and (var <= (Message_case1 + Message_case2))):
        # CASE 2 HITS
         MSG = {
-            "@timestamp": date,
+            # "@timestamp": date,
             "OPC": OPC_VALUE_,
             "DPC": DPC_VALUE_,
             "OTID": OTID_VALUE,

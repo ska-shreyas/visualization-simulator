@@ -1,6 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit ,ElementRef, ViewChild} from '@angular/core';
 import { AutoMsgService } from '../services/auto-msg/auto-msg.service';
 import { ManualMsgService } from '../services/manual-msg/manual-msg.service';
+import {COMMA, ENTER} from '@angular/cdk/keycodes';
+import {FormControl} from '@angular/forms';
+import {MatAutocompleteSelectedEvent, MatAutocomplete} from '@angular/material/autocomplete';
+import {MatChipInputEvent} from '@angular/material/chips';
+import {Observable} from 'rxjs';
+import {map, startWith} from 'rxjs/operators';
 
 @Component({
   selector: 'app-home',
@@ -8,40 +14,97 @@ import { ManualMsgService } from '../services/manual-msg/manual-msg.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+
+  visible = true;
+  selectable = true;
+  removable = true;
+  separatorKeysCodes: number[] = [ENTER, COMMA];
+  fieldCtrl = new FormControl();
+  filteredFields: Observable<string[]>;
   public num_msgs;
   public anomaly_percent;
   public pid;
   public fieldvalid=false;
   public stopresponse;
+  public params = new Set();
   public MSG_FORMAT = {
-    "@timestamp": "",
-    "OPC": "",
-    "DPC": "",
-    "OTID": "",
-    "DTID": "",
-    "TCAP": "",
-    "OPCODE": "",
-    "CDTT": "",
-    "CDNP": "",
-    "CDNAI": "",
-    "CDADDR": "",
-    "CDCN": "",
-    "CDLOC": "",
-    "CGTT": "",
-    "CGNP": "",
-    "CGNAI": "",
-    "CGADDR": "",
-    "CGCN": "",
-    "CgLOC": "",
-    "ATYPE": "",
-    "ASUBTYPE": "",
-    "LSET": "",
-    "CLSF": "",
-    "CAT": "",
-    "MSISDN": "",
-    "IMSI": "",
-    "CLLI": "",
-    "SameCountryCode": ""
+    // "@timestamp" ,
+    "OPC" : "",
+    "DPC" : "",
+    // "OTID" : "",
+    // "DTID" : "",
+    // "TCAP" : "",
+    "OPCODE" : "",
+    "CDTT" : "",
+    "CDNP" : "",
+    "CDNAI" : "",
+    "CDADDR" : "",
+    "CDCN" : "",
+    "CDLOC" : "",
+    "CGTT" : "",
+    "CGNP" : "",
+    "CGNAI" : "",
+    "CGADDR" : "",
+    "CGCN" : "",
+    "CgLOC" : "",
+    "ATYPE" : "",
+    "ASUBTYPE" : "",
+    "LSET" : "",
+    "CLSF" : "",
+    "CAT" : "",
+    "MSISDN" : "",
+    "IMSI" : "",
+    "CLLI": "" ,
+    "SameCountryCode" : ""
+  }
+  fields=["OPC" ,
+  "DPC" ,
+  "CDTT" ,
+  "CDNP" ,
+  "CDNAI" ,
+  "CDADDR" ,
+  "CDCN" ,
+  "CDLOC" ,
+  "CGTT" ,
+  "CGNP" ,
+  "CGNAI" ,
+  "CGADDR" ,
+  "CGCN" ,
+  "CgLOC" ,
+  "ATYPE" ,
+  "ASUBTYPE" ,
+  "LSET" ,
+  "CLSF" ,
+  "CAT" ,
+  "MSISDN" ,
+  "IMSI" ,
+  "CLLI" ,
+  "SameCountryCode" ]  
+
+  fieldVisiblity ={
+    "OPC": false ,
+    "DPC": false,
+    "CDTT": false ,
+    "CDNP": false ,
+    "CDNAI": false ,
+    "CDADDR": false ,
+    "CDCN": false ,
+    "CDLOC": false ,
+    "CGTT": false ,
+    "CGNP": false ,
+    "CGNAI": false ,
+    "CGADDR": false ,
+    "CGCN": false ,
+    "CgLOC": false ,
+    "ATYPE": false ,
+    "ASUBTYPE": false ,
+    "LSET": false ,
+    "CLSF": false ,
+    "CAT": false ,
+    "MSISDN": false ,
+    "IMSI": false ,
+    "CLLI": false ,
+    "SameCountryCode": false
   }
 
   public OPCODE_mapping = {
@@ -134,10 +197,56 @@ export class HomeComponent implements OnInit {
   public stopmsg = false;
   public manualmsg;
 
-  constructor(private automsgService: AutoMsgService, private manualmsgService: ManualMsgService) { }
+  @ViewChild('fieldInput') fieldInput: ElementRef<HTMLInputElement>;
+  @ViewChild('auto') matAutocomplete: MatAutocomplete;
+
+  constructor(private automsgService: AutoMsgService, private manualmsgService: ManualMsgService) {
+    this.filteredFields = this.fieldCtrl.valueChanges.pipe(
+      startWith(null),
+      map((field: string | null) => field ? this._filter(field) : this.fields.slice()));
+   }
 
   ngOnInit(): void {
   }
+ 
+
+  add(event: MatChipInputEvent): void {
+    const input = event.input;
+    const value = event.value;
+    console.log("value")
+    // Add our fruit
+    if ((value || '').trim()) {
+      this.params.add(value.trim());
+      this.fieldVisiblity[value]=true;
+      console.log( this.fieldVisiblity[value])
+    }
+
+    // Reset the input value
+    if (input) {
+      input.value = '';
+    }
+
+    this.fieldCtrl.setValue(null);
+  }
+
+  remove(field: string): void {
+    const index = this.params.delete(field);
+    this.fieldVisiblity[field]=false;
+  }
+
+  selected(event: MatAutocompleteSelectedEvent): void {
+    this.params.add(event.option.viewValue);
+    this.fieldVisiblity[event.option.viewValue]=true;
+    this.fieldInput.nativeElement.value = '';
+    this.fieldCtrl.setValue(null);
+  }
+
+  private _filter(value: string): string[] {
+    const filterValue = value.toLowerCase();
+
+    return this.fields.filter(fruit => fruit.toLowerCase().indexOf(filterValue) === 0);
+  }
+
 
   public valid(){
     if(this.num_msgs!= undefined && this.anomaly_percent!= undefined && this.anomaly_percent >= 0 && this.anomaly_percent <=100){
@@ -187,9 +296,9 @@ export class HomeComponent implements OnInit {
   public manual() {
     console.log(this.MSG_FORMAT)
     if(this.MSG_FORMAT['OPCODE'] != ""){
-      this.MSG_FORMAT['CAT']=this.OPCODE_mapping[this.MSG_FORMAT['OPCODE']][0];
-      this.MSG_FORMAT['ATYPE']=this.OPCODE_mapping[this.MSG_FORMAT['OPCODE']][1];
-      this.MSG_FORMAT['ASUBTYPE']=this.OPCODE_mapping[this.MSG_FORMAT['OPCODE']][2];
+      this.MSG_FORMAT['CAT']=this.MSG_FORMAT['CAT']!=""?this.MSG_FORMAT['CAT']:this.OPCODE_mapping[this.MSG_FORMAT['OPCODE']][0];
+      this.MSG_FORMAT['ATYPE']=this.MSG_FORMAT['ATYPE']!=""?this.MSG_FORMAT['ATYPE']:this.OPCODE_mapping[this.MSG_FORMAT['OPCODE']][1];
+      this.MSG_FORMAT['ASUBTYPE']=this.MSG_FORMAT['ASUBTYPE']!=null?this.MSG_FORMAT['ASUBTYPE']:this.OPCODE_mapping[this.MSG_FORMAT['OPCODE']][2];
     }
     // console.log(this.MSG_FORMAT)
     this.manualmsgService.manualmsgs(this.MSG_FORMAT).subscribe(res => {

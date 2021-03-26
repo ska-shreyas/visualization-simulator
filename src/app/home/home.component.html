@@ -35,6 +35,33 @@
 
 <!------------------------------- Manual-generate Message--------------------- -->
     <mat-tab label="Manual-generate Messages">
+        <mat-form-field class="example-chip-list">
+            <mat-label>Parameters</mat-label>
+            <mat-chip-list #chipList aria-label="Field selection">
+              <mat-chip
+                *ngFor="let param of params"
+                [selectable]="selectable"
+                [removable]="removable"
+                (removed)="remove(param)">
+                {{param}}
+                <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+              </mat-chip>
+              <input
+                placeholder="New field..."
+                #fieldInput
+                [formControl]="fieldCtrl"
+                [matAutocomplete]="auto"
+                [matChipInputFor]="chipList"
+                [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+                (matChipInputTokenEnd)="add($event)">
+            </mat-chip-list>
+            <mat-autocomplete #auto="matAutocomplete" (optionSelected)="selected($event)">
+              <mat-option *ngFor="let field of fields" [value]="field">
+                {{field}}
+              </mat-option>
+            </mat-autocomplete>
+          </mat-form-field>
+          
         <div  class="card" style="min-height: 100px;">
             <table>
                 <tr>
@@ -58,6 +85,87 @@
                 <tr>
                     <td><label>LINKSET</label></td>
                     <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['LSET']"></td>
+                </tr>
+                <!-- ------------------------------------------------------------------------------------------- -->
+                <tr *ngIf="fieldVisiblity['OPC']">
+                    <td><label>OPC</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['OPC']"></td>
+                </tr>
+                <tr *ngIf="fieldVisiblity['DPC']">
+                    <td><label>DPC</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['DPC']"></td>
+                </tr>
+                <tr *ngIf="fieldVisiblity['CDTT']">
+                    <td><label>CDTT</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['CDTT']"></td>
+                </tr>
+                <tr *ngIf="fieldVisiblity['CDNP']">
+                    <td><label>CDNP</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['CDNP']"></td>
+                </tr>
+                <tr *ngIf="fieldVisiblity['CDNAI']">
+                    <td><label>CDNAI</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['CDNAI']"></td>
+                </tr>
+                <tr *ngIf="fieldVisiblity['CDCN']">
+                    <td><label>CDCN</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['CDCN']"></td>
+                </tr>
+                <tr *ngIf="fieldVisiblity['CDLOC']">
+                    <td><label>CDLOC</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['CDLOC']"></td>
+                </tr>
+                <tr *ngIf="fieldVisiblity['CGTT']">
+                    <td><label>CGTT</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['CGTT']"></td>
+                </tr>
+                <tr *ngIf="fieldVisiblity['CGNP']">
+                    <td><label>CGNP</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['CGNP']"></td>
+                </tr>
+                <tr *ngIf="fieldVisiblity['CGNAI']">
+                    <td><label>CGNAI</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['CGNAI']"></td>
+                </tr>
+                <tr *ngIf="fieldVisiblity['CGCN']">
+                    <td><label>CGCN</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['CGCN']"></td>
+                </tr>
+                <tr *ngIf="fieldVisiblity['CGLOC']">
+                    <td><label>CGLOC</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['CGLOC']"></td>
+                </tr>
+                <tr *ngIf="fieldVisiblity['ATYPE']">
+                    <td><label>ATYPE</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['ATYPE']"></td>
+                </tr>
+                <tr *ngIf="fieldVisiblity['ASUBTYPE']">
+                    <td><label>ASUBTYPE</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['ASUBTYPE']"></td>
+                </tr>
+                <tr *ngIf="fieldVisiblity['CLSF']">
+                    <td><label>CLSF</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['CLSF']"></td>
+                </tr>
+                <tr *ngIf="fieldVisiblity['CAT']">
+                    <td><label>CAT</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['CAT']"></td>
+                </tr>
+                <tr *ngIf="fieldVisiblity['MSISDN']">
+                    <td><label>MSISDN</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['MSISDN']"></td>
+                </tr>
+                <tr *ngIf="fieldVisiblity['IMSI']">
+                    <td><label>IMSI</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['IMSI']"></td>
+                </tr>
+                <tr *ngIf="fieldVisiblity['CLLI']">
+                    <td><label>CLLI</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['CLLI']"></td>
+                </tr>
+                <tr *ngIf="fieldVisiblity['SameCountryCode']">
+                    <td><label>SameCountryCode</label></td>
+                    <td><input type="text" class="form-control" [(ngModel)]="MSG_FORMAT['SameCountryCode']"></td>
                 </tr>
             </table>
             <div style="margin: 30px 10px 10px 10px;">
